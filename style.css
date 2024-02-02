@@ -1,0 +1,59 @@
+.featurette-heading{
+    margin-top: 7rem;
+    font-size: 50px;
+    letter-spacing: -.05rem;
+}
+.bi {
+    vertical-align: -0.125em;
+    fill: currentColor;
+}
+
+.feature-icon-small {
+    width: 3rem ;
+    height: 3rem;
+}
+
+.feature-icon {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 0.75rem;
+}
+
+.black{
+    background-color: #000000;
+}
+.black-text{
+    color:#000000;
+}
+.white-text{
+color: #F0EDCF;
+}
+.blue{
+    background-color: #0B60B0;
+}
+
+.bright-blue{
+    background-color: #6bafef;
+}
+
+.blue-brightest{
+    background-color: #F0EDCF;
+}
+
+.gradient-background {
+    background: linear-gradient(300deg, #52e1f4,#1ca2eb , #0B60B0);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
